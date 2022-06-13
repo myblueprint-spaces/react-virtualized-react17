@@ -1,10 +1,10 @@
 {
-  "name": "react-virtualized",
-  "description": "React components for efficiently rendering large, scrollable lists and tabular data",
-  "author": "Brian Vaughn <brian.david.vaughn@gmail.com>",
+  "name": "@myblueprint/react-virtualized",
+  "description": "React components for efficiently rendering large, scrollable lists and tabular data. Forked from https://github.com/bvaughn/react-virtualized",
+  "author": "myblueprint-spaces",
   "user": "bvaughn",
   "version": "9.22.3",
-  "homepage": "https://github.com/bvaughn/react-virtualized",
+  "homepage": "https://github.com/myblueprint-spaces/react-virtualized-react17",
   "main": "dist/commonjs/index.js",
   "module": "dist/es/index.js",
   "jsnext:main": "dist/es/index.js",
@@ -47,7 +47,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bvaughn/react-virtualized.git"
+    "url": "git@github.com:myblueprint-spaces/react-virtualized-react17.git"
   },
   "keywords": [
     "react",
