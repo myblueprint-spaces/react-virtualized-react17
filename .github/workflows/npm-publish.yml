@@ -5,7 +5,7 @@ name: Publish npm package
 
 on:
   push:
-    branches: [ master, v* ]
+    branches: [master, v*]
 
 jobs:
   publish-npm:
@@ -20,7 +20,7 @@ jobs:
         with:
           node-version: 16
           registry-url: 'https://npm.pkg.github.com'
-      - run: npm ci
+      - run: npm ci --legacy-peer-deps
       - run: npm run build
       - run: npm version patch -m "Upgrade to %s [skip ci]"
       - run: npm publish
