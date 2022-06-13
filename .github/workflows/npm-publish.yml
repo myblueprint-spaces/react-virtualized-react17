@@ -20,6 +20,10 @@ jobs:
         with:
           node-version: 16
           registry-url: 'https://npm.pkg.github.com'
+      - name: Configure git user
+        run: |
+          git config --global user.name '${{ github.pusher.name }}'
+          git config --global user.email '${{ github.pusher.email }}'
       - run: npm ci --legacy-peer-deps
       - run: npm run build
       - run: npm version patch -m "Upgrade to %s [skip ci]"
