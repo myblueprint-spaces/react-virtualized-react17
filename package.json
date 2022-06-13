@@ -1,5 +1,5 @@
 {
-  "name": "@myblueprint/react-virtualized",
+  "name": "@myblueprint-spaces/react-virtualized",
   "description": "React components for efficiently rendering large, scrollable lists and tabular data. Forked from https://github.com/bvaughn/react-virtualized",
   "author": "myblueprint-spaces",
   "user": "bvaughn",
